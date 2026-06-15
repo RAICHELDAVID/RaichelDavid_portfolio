@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raichel David_Portfolio</title>
+    <link rel="icon" type="image/png" href="./images/logo.png">
+    <!-- FONT -->
+    <link href="css/css2.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <!---<div class="logo">
+                <img src="images/logo.png" alt="logo">
+            </div>--->
+            <!---<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">click here</span>
+            </button>--->
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 nav-links" id="navLinks">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#qa">QA/Testing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link download-resume" href="" onclick="downloadResume()">Resume download</a>
+                    </li>
+                </ul>
+            </div>
+            <!---<div class="download-button">
+                <button type="button" class="secondary-btn download-resume" onclick="downloadResume()">
+                    Download Resume
+                </button>
+            </div>--->
+        </div>
+    </nav>
+    <!-- ================= INTRODUCTION SECTION ================= -->
+    <section class="d-flex align-items-center mt-5 pt-2 introduction">
+        <!-- LEFT CONTENT -->
+        <div class="introduction-left">
+            <p class="hello-text">👋 Hello, I'm</p>
+            <h1>RAICHEL DAVID</h1>
+            <h2>ColdFusion Developer & QA Enthusiast</h2>
+            <p class="introduction-description">
+                I build web applications using ColdFusion & SQL Server
+                and I’m currently learning automation testing.
+            </p>
+        </div>
+        <!-- RIGHT CONTENT -->
+        <div class="introduction-right">
+            <img src="images/profile.png" alt="dashboard">
+        </div>
+    </section>
+    <section class="about-section" id="about">
+        <!-- Heading -->
+        <div class="d-flex align-items-center section-heading">
+            <h2 class="section-title mb-4"><span class="title-line"></span> About Me</h2>
+        </div>
+        <!-- Grid -->
+        <div class="about-grid">
+            <!-- LEFT: Bio + Stats -->
+            <div class="about-card">
+                <div class="glow-dot a"></div>
+                <div class="glow-dot b"></div>
+                <div class="d-flex align-items-start profile-row">
+                    <!-- Avatar -->
+                    <div class="avatar-wrap">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z" />
+                        </svg>
+                    </div>
+                    <!-- Bio -->
+                    <p class="bio-text">
+                        I'm a ColdFusion Developer with 1.5 year of experience in building
+                        inventory &amp; billing systems. Passionate about clean code, problem
+                        solving and software quality. I also have strong interest in Manual
+                        Testing and Automation Testing.
+                    </p>
+                </div>
+                <!-- Stats -->
+                <div class="d-flex stats-row">
+                    <div class="d-flex align-items-center stat-item">
+                        <span class="stat-icon">🏆</span>
+                        <span class="stat-value">1+</span>
+                        <span class="stat-label">Years<br>Experience</span>
+                    </div>
+                    <div class="d-flex align-items-center stat-item">
+                        <span class="stat-icon">⚙️</span>
+                        <span class="stat-value">ColdFusion</span>
+                        <span class="stat-label">Specialization</span>
+                    </div>
+                    <div class="d-flex align-items-center stat-item">
+                        <span class="stat-icon">🗄️</span>
+                        <span class="stat-value">SQL Server</span>
+                        <span class="stat-label">Database</span>
+                    </div>
+                    <div class="d-flex align-items-center stat-item">
+                        <span class="stat-icon">🔍</span>
+                        <span class="stat-value">QA Enthusiast</span>
+                        <span class="stat-label">Testing Focus</span>
+                    </div>
+                </div>
+            </div>
+            <!-- RIGHT: Technologies -->
+            <div class="tech-card">
+                <div class="glow-dot a"></div>
+                <h3>Technologies</h3>
+                <div class="tech-grid">
+                    <span class="tech-tag">Manual testing</span>
+                    <span class="tech-tag">Selenium</span>
+                    <span class="tech-tag">Java</span>
+                    <span class="tech-tag">SDLC</span>
+                    <span class="tech-tag">Scrum</span>
+                    <span class="tech-tag">ColdFusion</span>
+                    <span class="tech-tag">SQL Server</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">ApachePOI</span>
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">jQuery</span>
+                    <span class="tech-tag">Bootstrap</span>
+                    <span class="tech-tag">Media Query</span>
+                    <span class="tech-tag">Git</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills-section py-5">
+        <div class="container">
+            <h2 class="section-title mb-4">
+                <span class="title-line"></span> My Skills
+            </h2>
+            <div class="row g-4">
+                <!-- Skill Card -->
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="skill-card text-center">
+                        <img src="images/coldfusion.png" alt="coldfusion img">
+                        <h6>ColdFusion</h6>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="skill-card text-center">
+                        <img src="images/sql server logo.png" alt="sql server logo img">
+                        <h6>SQL Server</h6>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="skill-card text-center">
+                        <img src="images/JavaScript-logo.png" alt="js logo img">
+                        <h6>JavaScript</h6>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="skill-card text-center">
+                        <i class="fa-solid fa-file-excel skill-icon"></i>
+                        <h6>Apache POI</h6>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="skill-card text-center">
+                        <img src="images/selenium.png" alt="selenium img">
+                        <h6>Selenium</h6>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="skill-card text-center">
+                        <img src="images/manual testing.png" alt="manual testing">
+                        <h6>Manual Testing</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5" id="project">
+        <div class="container">
+            <h2 class="section-title mb-4">
+                <span class="title-line"></span> Featured Projects
+            </h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card product-card">
+                        <img src="images/CHHAKIMI.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-6">CHHAKIMI</h5>
+                            <p class="card-text fw-lighter product-description">Designed, developed, and tested key
+                                business modules including quote generation, inventory management, authentication,
+                                and invoicing workflows
+                            </p>
+                            <div class="project-footer">
+                                <div class="project-skill">
+                                    <span class="project-tag">ApachePoi</span>
+                                    <span class="project-tag">Coldfusion</span>
+                                    <span class="project-tag">SQL Server</span>
+                                    <span class="project-tag">HTML</span>
+                                    <span class="project-tag">CSS</span>
+                                    <span class="project-tag">Manual testing</span>
+                                </div>
+                                <a href="https://github.com/RAICHELDAVID/cfspreadsheet/tree/branch21"
+                                    class="project-git text-decoration-none">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card product-card">
+                        <img src="images/addressBook.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-6">Address book</h5>
+                            <p class="card-text fw-lighter product-description">A web-based application that enables
+                                users to securely manage personal contacts. Features include user
+                                registration/login, contact creation, editing, viewing, deletion, profile image upload,
+                                and contact export options, all
+                                through a clean and user-friendly interface
+                            </p>
+                            <div class="project-footer">
+                                <div class="project-skill">
+                                    <span class="project-tag">Adobe Coldfusion</span>
+                                    <span class="project-tag">HTML</span>
+                                    <span class="project-tag">CSS</span>
+                                    <span class="project-tag">SQL Server</span>
+                                    <span class="project-tag">JavaScript</span>
+                                    <span class="project-tag">jQuery</span>
+                                    <span class="project-tag">Bootstrap</span>
+                                    <span class="project-tag">IIS</span>
+                                    <span class="project-tag">SSO</span>
+                                </div>
+                                <a href="https://github.com/RAICHELDAVID/addressBooking.git"
+                                    class="project-git text-decoration-none">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card product-card">
+                        <img src="images/QA_repo.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-6">Anton Matrimony</h5>
+                            <p class="card-text fw-lighter product-description">Performed manual testing on a web-based
+                                Matrimony application by creating test scenarios and functional, non-functional,
+                                and UI test cases. Conducted exploratory testing to identify defects and documented
+                                issues using Excel and Jira,
+                                ensuring application quality and usability throughout the testing process.
+                            </p>
+                            <div class="project-footer">
+                                <div class="project-skill">
+                                    <span class="project-tag">Manual testing</span>
+                                    <span class="project-tag">Exploratory testing</span>
+                                    <span class="project-tag">Non-Functional testing</span>
+                                    <span class="project-tag">Functional testing</span>
+                                    <span class="project-tag">UI Testing</span>
+                                    <span class="project-tag">Test case creation</span>
+                                    <span class="project-tag">Test case execution</span>
+                                    <span class="project-tag">Defect Reporting</span>
+                                    <span class="project-tag">Jira</span>
+                                </div>
+                                <a href="https://github.com/RAICHELDAVID/QA_repository.git"
+                                    class="project-git text-decoration-none">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------- QA / TESTING SECTION ---------->
+    <section class="section-wrap qa-section" id="qa">
+        <div class="container">
+            <h2 class="section-title mb-4">
+                <span class="title-line"></span> QA/Testing Journey
+            </h2>
+            <div class="row g-4">
+                <!-- Testing Types -->
+                <div class="col-12 col-sm-6 col-xl-3">
+                    <div class="qa-card">
+                        <div class="qa-icon icon-purple">🔍</div>
+                        <div class="qa-card-title">Testing Types</div>
+                        <ul class="qa-list">
+                            <li>Functional Testing</li>
+                            <li>Regression Testing</li>
+                            <li>Smoke Testing</li>
+                            <li>Sanity Testing</li>
+                            <li>User Acceptance Testing</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Bug Reporting -->
+                <div class="col-12 col-sm-6 col-xl-3">
+                    <div class="qa-card">
+                        <div class="qa-icon icon-blue">🐛</div>
+                        <div class="qa-card-title">Bug Reporting</div>
+                        <ul class="qa-list">
+                            <li>Requirement Analysis</li>
+                            <li>Test Execution</li>
+                            <li>Bug Identification</li>
+                            <li>Bug Logging</li>
+                            <li>Retesting &amp; Closure</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Tools I Use -->
+                <div class="col-12 col-sm-6 col-xl-3">
+                    <div class="qa-card">
+                        <div class="qa-icon icon-green">🛠️</div>
+                        <div class="qa-card-title">Tools I Use</div>
+                        <ul class="qa-list">
+                            <li>Selenium WebDriver</li>
+                            <li>Postman</li>
+                            <li>JIRA (Basics)</li>
+                            <li>TestNG</li>
+                            <li>Excel / Google Sheets</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Currently Learning -->
+                <div class="col-12 col-sm-6 col-xl-3">
+                    <div class="qa-card">
+                        <div class="qa-icon icon-orange">📈</div>
+                        <div class="qa-card-title">Currently Learning</div>
+                        <ul class="qa-list">
+                            <li>Test Automation</li>
+                            <li>API Automation</li>
+                            <li>CI / CD Basics</li>
+                            <li>Advanced Selenium</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- /row -->
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <h2 class="section-title mb-4" id="contact">
+                <span class="title-line"></span> Lets's Connect
+            </h2>
+            <div class="d-flex connect-container">
+                <div class="d-flex connect-ways">
+                    <div class="me-3 connect-ways-left">
+                        <div class="d-flex mt-2">
+                            <i class="fa-solid fa-envelope-circle-check"></i>
+                            <h5>raicheldavid22@gmail.com</h5>
+                        </div>
+                        <div class="d-flex mt-2">
+                            <i class="fa-solid fa-phone"></i>
+                            <h5>+919496390198</h5>
+                        </div>
+                        <div class="d-flex mt-2">
+                            <i class=" pe-2 fa-solid fa-location-dot"></i>
+                            <h5>India</h5>
+                        </div>
+                    </div>
+                    <div class="connect-ways-right">
+                        <div class="card-group">
+                            <a href="https://www.linkedin.com/in/raichel-david-785688193/" class="text-decoration-none">
+                                <div class="card">
+                                    <img src="images/linkedIn-image.png" class="linkedIn" alt="linkedIn">
+                                    <div class="card-body">
+                                        <h5 class="fs-6 card-title">LinkedIn</h5>
+                                        <p class="card-text"><small class="text-muted">Connect with me</small></p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://github.com/RAICHELDAVID" class="text-decoration-none">
+                                <div class="card">
+                                    <img src="images/git-logo.jpg" class="card-img-top" alt="git">
+                                    <div class="card-body">
+                                        <h5 class="fs-6 card-title">Github</h5>
+                                        <p class="card-text"><small class="text-muted">Check my repositories</small></p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="text-decoration-none" id="click-to-mail">
+                                <div class="card">
+                                    <img src="images/email.png" class="card-img-top" alt="email">
+                                    <div class="card-body">
+                                        <h5 class="fs-6 card-title">Email</h5>
+                                        <p class="card-text"><small class="text-muted">Send me a message</small></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="connect-forms">
+<form>
+    <div class="mb-3">
+        <input type="text" class="form-control" id="name" placeholder="Your name" autoComplete="off">
+    </div>
+
+    <div class="mb-3">
+        <input type="email" class="form-control" id="email" placeholder="Your email" autoComplete="off">
+    </div>
+
+    <div class="mb-3">
+        <textarea class="form-control" id="message" placeholder="Your message"></textarea>
+    </div>
+
+    <div class="d-grid gap-2">
+        <button class="btn btn-outline-primary" type="button" onclick="sendMail()">
+            Send Message
+        </button>
+    </div>
+</form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "FSENd3E8uMjgD0O-k",
+            });
+        })();
+    </script>
+</body>
+
+</html>
