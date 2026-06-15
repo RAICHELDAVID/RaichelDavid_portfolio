@@ -19,12 +19,16 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <!---<div class="logo">
-                <img src="images/logo.png" alt="logo">
-            </div>--->
-            <!---<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+               <img src="images/logo.png" alt="logo">
+               </div>--->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
                 aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">click here</span>
-            </button>--->
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                </svg>
+            </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0 nav-links" id="navLinks">
                     <li class="nav-item">
@@ -48,10 +52,10 @@
                 </ul>
             </div>
             <!---<div class="download-button">
-                <button type="button" class="secondary-btn download-resume" onclick="downloadResume()">
-                    Download Resume
-                </button>
-            </div>--->
+               <button type="button" class="secondary-btn download-resume" onclick="downloadResume()">
+                   Download Resume
+               </button>
+               </div>--->
         </div>
     </nav>
     <!-- ================= INTRODUCTION SECTION ================= -->
@@ -217,7 +221,7 @@
                                     <span class="project-tag">Manual testing</span>
                                 </div>
                                 <a href="https://github.com/RAICHELDAVID/cfspreadsheet/tree/branch21"
-                                    class="project-git text-decoration-none">
+                                    class="project-git text-decoration-none" target="_blank">
                                     <i class="fa-brands fa-github"></i>
                                 </a>
                             </div>
@@ -248,7 +252,7 @@
                                     <span class="project-tag">SSO</span>
                                 </div>
                                 <a href="https://github.com/RAICHELDAVID/addressBooking.git"
-                                    class="project-git text-decoration-none">
+                                    class="project-git text-decoration-none" target="_blank">
                                     <i class="fa-brands fa-github"></i>
                                 </a>
                             </div>
@@ -279,7 +283,7 @@
                                     <span class="project-tag">Jira</span>
                                 </div>
                                 <a href="https://github.com/RAICHELDAVID/QA_repository.git"
-                                    class="project-git text-decoration-none">
+                                    class="project-git text-decoration-none" target="_blank">
                                     <i class="fa-brands fa-github"></i>
                                 </a>
                             </div>
@@ -378,7 +382,7 @@
                     </div>
                     <div class="connect-ways-right">
                         <div class="card-group">
-                            <a href="https://www.linkedin.com/in/raichel-david-785688193/" class="text-decoration-none">
+                            <a href="https://www.linkedin.com/in/raichel-david-785688193/" class="text-decoration-none" target="_blank">
                                 <div class="card">
                                     <img src="images/linkedIn-image.png" class="linkedIn" alt="linkedIn">
                                     <div class="card-body">
@@ -387,7 +391,7 @@
                                     </div>
                                 </div>
                             </a>
-                            <a href="https://github.com/RAICHELDAVID" class="text-decoration-none">
+                            <a href="https://github.com/RAICHELDAVID" class="text-decoration-none" target="_blank">
                                 <div class="card">
                                     <img src="images/git-logo.jpg" class="card-img-top" alt="git">
                                     <div class="card-body">
@@ -396,7 +400,7 @@
                                     </div>
                                 </div>
                             </a>
-                            <a href="#" class="text-decoration-none" id="click-to-mail">
+                            <a href="#" class="text-decoration-none" id="click-to-mail" target="_blank">
                                 <div class="card">
                                     <img src="images/email.png" class="card-img-top" alt="email">
                                     <div class="card-body">
@@ -409,33 +413,31 @@
                     </div>
                 </div>
                 <div class="connect-forms">
-<form>
-    <div class="mb-3">
-        <input type="text" class="form-control" id="name" placeholder="Your name" autoComplete="off">
-    </div>
-
-    <div class="mb-3">
-        <input type="email" class="form-control" id="email" placeholder="Your email" autoComplete="off">
-    </div>
-
-    <div class="mb-3">
-        <textarea class="form-control" id="message" placeholder="Your message"></textarea>
-    </div>
-
-    <div class="d-grid gap-2">
-        <button class="btn btn-outline-primary" type="button" onclick="sendMail()">
-            Send Message
-        </button>
-    </div>
-</form>
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="name" placeholder="Your name"
+                                autoComplete="off">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="Your email"
+                                autoComplete="off">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="message" placeholder="Your message"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-outline-primary" type="button" onclick="sendMail()">
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
     <script src="js/script.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script type="text/javascript">
         (function () {
             emailjs.init({

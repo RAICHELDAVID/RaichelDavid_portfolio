@@ -1,4 +1,4 @@
-function downloadResume(){
+function downloadResume() {
     window.open("assets/Raichel David_resume.pdf")
 }
 document.getElementById('click-to-mail').addEventListener('click', function (event) {
@@ -6,6 +6,7 @@ document.getElementById('click-to-mail').addEventListener('click', function (eve
     const email = 'raicheldavid22@gmail.com';
     window.location.href = `mailto:${email}`;
 });
+
 function sendMail() {
     let name = document.getElementById("name").value.trim();
     let email = document.getElementById("email").value.trim();
