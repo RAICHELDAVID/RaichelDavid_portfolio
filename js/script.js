@@ -1,5 +1,5 @@
 function downloadResume() {
-    window.open("assets/Raichel David_resume.pdf")
+    window.open("assets/Raichel_David_Resume.pdf")
 }
 document.getElementById('click-to-mail').addEventListener('click', function (event) {
     event.preventDefault();
